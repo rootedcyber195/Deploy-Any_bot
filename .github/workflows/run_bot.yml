@@ -14,7 +14,8 @@ jobs:
 
     steps:
 
-      - name: Running bot in github action
-
-        run:  chmod +x run.sh && ./run.sh
-
+      - name: Run bot
+  run: |
+    ls -la
+    chmod +x ./run.sh
+    ./run.sh
