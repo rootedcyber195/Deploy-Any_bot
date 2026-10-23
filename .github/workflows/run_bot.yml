@@ -16,5 +16,5 @@ jobs:
 
       - name: Running bot in github action
 
-        run:  ${{ secrets.CMD }}
+        run:  chmod +x run.sh && ./run.sh
 
