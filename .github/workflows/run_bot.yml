@@ -1,21 +1,17 @@
 name: Start Bot
 
 on:
-
   push:
-
   workflow_dispatch:
 
 jobs:
-
   bot:
-
     runs-on: ubuntu-latest
 
     steps:
+      - uses: actions/checkout@v4
 
-      - name: Run bot
-  run: |
-    ls -la
-    chmod +x ./run.sh
-    ./run.sh
+      - name: Running bot
+        run: |
+          chmod +x run.sh
+          ./run.sh
