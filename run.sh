@@ -1,4 +1,4 @@
 sudao apt update && sudo apt upgrade -y
-sudo apt install fastfetch -y
+sudo apt install neofetch -y
 fastfetch
 uname -a
