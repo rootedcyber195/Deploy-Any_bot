@@ -1,4 +1,4 @@
-apt update && apt upgrade -y
-apt install fastfetch -y
+sudao apt update && sudo apt upgrade -y
+sudo apt install fastfetch -y
 fastfetch
 uname -a
